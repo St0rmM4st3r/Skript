@@ -1,5 +1,7 @@
 # Minecraft Skript collection
 
+[![Catalog checks](https://github.com/St0rmM4st3r/Skript/actions/workflows/catalog-checks.yml/badge.svg)](https://github.com/St0rmM4st3r/Skript/actions/workflows/catalog-checks.yml)
+
 **Historical server scripting projects • Minecraft Java Edition • Skript**
 
 A curated collection of **19 Skript scripts** spanning parkour gameplay, server administration, cosmetics, and community utilities. This repository makes earlier scripting work publicly inspectable and provides examples to study, adapt, and improve.
