@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "description": "Inventory of historical Minecraft Skript examples. Presence does not imply runtime compatibility.",
+  "scripts": [
+    {
+      "path": "Misc/admingui.sk",
+      "title": "Admin GUI",
+      "category": "Administration",
+      "summary": "Experimental inventory interface; depends on SkBee syntax.",
+      "dependencies": [
+        "SkBee"
+      ],
+      "status": "legacy-example"
+    },
+    {
+      "path": "Misc/afkpool.sk",
+      "title": "AFK pool rewards",
+      "category": "Gameplay",
+      "summary": "Region-based AFK reward loop with server-specific currency variables.",
+      "dependencies": [
+        "SkQuery",
+        "WorldGuard"
+      ],
+      "status": "legacy-example"
+    },
+    {
+      "path": "Misc/deathban.sk",
+      "title": "Death-based ban",
+      "category": "Moderation",
+      "summary": "Tracks deaths and bans after a threshold; dangerous to enable unchanged.",
+      "dependencies": [
+        "SkQuery",
+        "skRayFall"
+      ],
+      "status": "legacy-example"
+    },
+    {
+      "path": "Misc/discord.sk",
+      "title": "Discord message options",
+      "category": "Configuration",
+      "summary": "Options snippet containing an unconfigured Discord invite placeholder.",
+      "dependencies": [],
+      "status": "legacy-example"
+    },
+    {
+      "path": "Misc/hats.g.sk",
+      "title": "Cosmetic hat menu",
+      "category": "Cosmetics",
+      "summary": "Legacy GUI-backed hat menu with custom permission and purchase hooks.",
+      "dependencies": [],
+      "status": "legacy-example"
+    },
+    {
+      "path": "Misc/koth.sk",
+      "title": "King of the Hill",
+      "category": "Gameplay",
+      "summary": "Timed hill capture concept with hardcoded broadcast and reward commands.",
+      "dependencies": [],
+      "status": "legacy-example"
+    },
+    {
+      "path": "Misc/moneyonkill.sk",
+      "title": "Kill points and shop draft",
+      "category": "Economy",
+      "summary": "Kill-point bookkeeping and an unfinished shop GUI template.",
+      "dependencies": [],
+      "status": "legacy-example"
+    },
+    {
+      "path": "Misc/perks.g.sk",
+      "title": "Perks menu",
+      "category": "Cosmetics",
+      "summary": "Legacy perks GUI integrating other commands and server-specific worlds.",
+      "dependencies": [],
+      "status": "legacy-example"
+    },
+    {
+      "path": "Misc/pets.g.sk",
+      "title": "Cosmetic pets",
+      "category": "Cosmetics",
+      "summary": "Legacy pet selection and management routines with custom entitlements.",
+      "dependencies": [],
+      "status": "legacy-example"
+    },
+    {
+      "path": "Misc/punishmentsystem.sk",
+      "title": "Punishment system draft",
+      "category": "Moderation",
+      "summary": "Ban, mute, kick, and warning routines; security-sensitive, not verified.",
+      "dependencies": [],
+      "status": "legacy-example"
+    },
+    {
+      "path": "Misc/purchase.sk",
+      "title": "Purchase synchronization draft",
+      "category": "Integration",
+      "summary": "Legacy purchase variables and player-identity migration examples.",
+      "dependencies": [],
+      "status": "legacy-example"
+    },
+    {
+      "path": "Misc/rulesgui.sk",
+      "title": "Rules GUI",
+      "category": "Administration",
+      "summary": "Inventory-based rules navigation with server-specific content.",
+      "dependencies": [],
+      "status": "legacy-example"
+    },
+    {
+      "path": "Misc/staffchat.sk",
+      "title": "Staff chat",
+      "category": "Moderation",
+      "summary": "Toggleable staff-only messaging example with chat event handling.",
+      "dependencies": [],
+      "status": "legacy-example"
+    },
+    {
+      "path": "Parkour/checkpoints.sk",
+      "title": "Parkour checkpoints",
+      "category": "Parkour",
+      "summary": "Checkpoint commands and variables with economy integration.",
+      "dependencies": [],
+      "status": "legacy-example"
+    },
+    {
+      "path": "Parkour/parkour.sk",
+      "title": "Parkour courses",
+      "category": "Parkour",
+      "summary": "Course tracking, teleportation, and progress scripting for a custom map setup.",
+      "dependencies": [],
+      "status": "legacy-example"
+    },
+    {
+      "path": "Parkour/parkoursigns.sk",
+      "title": "Parkour signs",
+      "category": "Parkour",
+      "summary": "Sign-based course counters and scheduled display refresh.",
+      "dependencies": [],
+      "status": "legacy-example"
+    },
+    {
+      "path": "Parkour/parkourspawn.sk",
+      "title": "Parkour spawn management",
+      "category": "Parkour",
+      "summary": "Per-course spawn points, teleport commands, and player counters.",
+      "dependencies": [],
+      "status": "legacy-example"
+    },
+    {
+      "path": "Parkour/parkourstats.sk",
+      "title": "Parkour statistics",
+      "category": "Parkour",
+      "summary": "Statistics signboards and periodic refresh routines.",
+      "dependencies": [],
+      "status": "legacy-example"
+    },
+    {
+      "path": "Parkour/timer.sk",
+      "title": "Parkour timer",
+      "category": "Parkour",
+      "summary": "Timed runs and sign-based leaderboards with extensive custom variables.",
+      "dependencies": [],
+      "status": "legacy-example"
+    }
+  ]
+}

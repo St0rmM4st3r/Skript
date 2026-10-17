@@ -1,0 +1,20 @@
+# Local development files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.tmp
+
+# Local secrets (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
